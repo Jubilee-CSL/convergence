@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convergence — Logistics</title>
+  <meta name="description" content="Practical information — venue, accommodation, travel and catering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Leaflet (open-source maps, BSD 2-Clause) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<script src="assets/js/nav.js"></script>
+
+  <!-- Hero -->
+  <header class="page-hero compact">
+    <p class="workshop-label">Convergence Workshop</p>
+    <h1>Logistics</h1>
+  </header>
+
+  <!-- Main content -->
+  <main class="main-content">
+
+    <!-- Venue -->
+    <section class="section-block" id="venue">
+      <h2>Venues</h2>
+
+      <div class="venue-cards">
+        <div class="venue-card">
+          <p class="venue-name">Sony CSL Paris</p>
+          <p class="venue-address">6 Rue Amyot, 75005 Paris, France</p>
+          <p class="venue-note">Fablab &amp; prototyping sessions (days 1–2)</p>
+          <a href="https://www.sonycsl.co.jp/paris/" target="_blank" rel="noopener">csl.sony.fr</a>
+        </div>
+        <div class="venue-card">
+          <p class="venue-name">ENS-PSL — Rue Lhomond</p>
+          <p class="venue-address">24 Rue Lhomond, 75005 Paris, France</p>
+          <p class="venue-note">Seminar &amp; presentations (day 3)</p>
+          <a href="https://www.ens.psl.eu" target="_blank" rel="noopener">ens.psl.eu</a>
+        </div>
+      </div>
+
+      <!-- Map (Leaflet + OpenStreetMap — open-source, no API key needed) -->
+      <div id="venue-map"></div>
+
+      <script>
+        (function () {
+          var map = L.map('venue-map').setView([48.8462, 2.3475], 15);
+
+          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
+
+          L.marker([48.8479, 2.3494])
+            .addTo(map)
+            .bindPopup('<b>Sony CSL Paris</b><br>6 Rue Amyot, 75005 Paris<br><small>Fablab &amp; prototyping sessions</small>')
+            .openPopup();
+
+          L.marker([48.8443, 2.3450])
+            .addTo(map)
+            .bindPopup('<b>ENS-PSL</b><br>24 Rue Lhomond, 75005 Paris<br><small>Seminar &amp; presentations</small>');
+        })();
+      </script>
+    </section>
+
+    <!-- Accommodation -->
+    <section class="section-block" id="accommodation">
+      <h2>Accommodation</h2>
+      <div class="placeholder">
+        Recommended hotels, university housing and booking links — to be written.
+      </div>
+    </section>
+
+    <!-- Travel & getting there -->
+    <section class="section-block" id="travel">
+      <h2>Travel</h2>
+
+      <h3>By Air</h3>
+      <div class="abstract-text">
+        <p>Paris is served by two main international airports:</p>
+        <p><strong>Paris-Charles de Gaulle (CDG)</strong> — ~35 km north-east. Take the <strong>RER B</strong> direct to <em>Luxembourg</em> or <em>Port-Royal</em> (approx. 40 min, €14). Both stations are a short walk from both venues.</p>
+        <p><strong>Paris-Orly (ORY)</strong> — ~18 km south. Take the <strong>Orlyval</strong> shuttle to <em>Antony</em>, then RER B north to <em>Luxembourg</em> (approx. 35 min total, €14).</p>
+      </div>
+
+      <h3>By Rail</h3>
+      <div class="abstract-text">
+        <p>Paris has six mainline terminals. Travellers from London (Eurostar), Brussels or Amsterdam arrive at <strong>Gare du Nord</strong>. From there take <strong>RER B</strong> southbound (direction Saint-Rémy-lès-Chevreuse or Massy-Palaiseau) to <em>Luxembourg</em> — two stops, under 10 minutes.</p>
+        <p>From <strong>Gare de Lyon</strong> (TGV from southern France, Italy, Switzerland): take <strong>RER D</strong> or <strong>Metro line 14</strong> to <em>Châtelet–Les Halles</em>, then RER B to <em>Luxembourg</em>.</p>
+      </div>
+
+      <h3>Local Transport</h3>
+      <div class="abstract-text">
+        <p>Both venues are in the <strong>5th arrondissement (Latin Quarter)</strong> and within a 3-minute walk of each other.</p>
+        <p><strong>Nearest metro / RER stops:</strong></p>
+        <ul style="margin: 0.5rem 0 0.75rem 1.25rem; font-size:0.95rem; line-height:1.9;">
+          <li><strong>Luxembourg</strong> (RER B) — 5 min walk to Sony CSL Paris, 8 min to ENS-PSL</li>
+          <li><strong>Censier–Daubenton</strong> (Metro 7) — 4 min walk to Sony CSL Paris</li>
+          <li><strong>Place Monge</strong> (Metro 7) — 7 min walk to both venues</li>
+        </ul>
+        <p>A <strong>Navigo Easy</strong> card (available at any metro station, €2) or single <em>t+ tickets</em> cover all metro, RER (within Paris), and bus travel. A single journey within Paris costs €2.15.</p>
+        <p>Street parking in the 5th is very limited. Cycling via <strong>Vélib'</strong> (public bike-share) is recommended — stations are located on Rue Amyot and Rue Lhomond.</p>
+      </div>
+    </section>
+
+    <!-- Sponsors -->
+    <section class="section-block" id="sponsors">
+      <h2>Sponsors &amp; Partners</h2>
+      <div class="placeholder">
+        Sponsoring organisations and acknowledgements — to be written.
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>Convergence Workshop &mdash; <a href="https://github.com/Jubilee-CSL/convergence">GitHub</a></p>
+  </footer>
+
+</body>
+</html>

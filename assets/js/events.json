@@ -1,0 +1,179 @@
+[
+  {
+    "title": "Introductory Buffet",
+    "start": "2026-09-09T12:00:00",
+    "end":   "2026-09-09T14:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Participants present their projects, skills and expectations of the workshop in one slide each. Buffet lunch provided. Hackathon groups form over lunch."
+    }
+  },
+  {
+    "title": "Hacking Session",
+    "start": "2026-09-09T14:00:00",
+    "end":   "2026-09-09T16:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Quick prototyping in the Fablab."
+    }
+  },
+  {
+    "title": "Coffee Break — Theme: Interoperability",
+    "start": "2026-09-09T16:00:00",
+    "end":   "2026-09-09T16:30:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Theme discussion: interoperability of the modular platforms (hardware and software)."
+    }
+  },
+  {
+    "title": "Documentation Sprint",
+    "start": "2026-09-09T16:30:00",
+    "end":   "2026-09-09T17:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": ""
+    }
+  },
+  {
+    "title": "Hacking Session",
+    "start": "2026-09-09T17:00:00",
+    "end":   "2026-09-09T19:30:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Quick prototyping in the Fablab."
+    }
+  },
+  {
+    "title": "Documentation Sprint",
+    "start": "2026-09-09T19:30:00",
+    "end":   "2026-09-09T20:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": ""
+    }
+  },
+  {
+    "title": "Dinner & Social",
+    "start": "2026-09-09T20:00:00",
+    "end":   "2026-09-09T22:00:00",
+    "extendedProps": {
+      "location":    "TBD",
+      "description": ""
+    }
+  },
+
+    {
+    "title": "Hacking Session",
+    "start": "2026-09-10T09:30:00",
+    "end":   "2026-09-10T12:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Quick prototyping in the Fablab."
+    }
+  },
+  {
+    "title": "Lunch Break — Theme: Data Management",
+    "start": "2026-09-10T12:00:00",
+    "end":   "2026-09-10T13:00:00"
+  },
+  {
+    "title": "Documentation Sprint",
+    "start": "2026-09-10T13:00:00",
+    "end":   "2026-09-10T14:00:00"
+
+  },
+  {
+    "title": "Hacking Session",
+    "start": "2026-09-10T14:00:00",
+    "end":   "2026-09-10T16:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Quick prototyping in the Fablab."
+    }
+},
+  {
+    "title": "Coffee Break — Theme: Interoperability",
+    "start": "2026-09-10T16:00:00",
+    "end":   "2026-09-10T16:30:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Theme discussion: interoperability of the modular platforms (hardware and software)."
+    }
+  },
+  {
+    "title": "Documentation Sprint",
+    "start": "2026-09-10T16:30:00",
+    "end":   "2026-09-10T17:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": ""
+    }
+  },
+  {
+    "title": "Hacking Session",
+    "start": "2026-09-10T17:00:00",
+    "end":   "2026-09-10T20:00:00",
+    "extendedProps": {
+      "location":    "Sony CSL Paris",
+      "description": "Quick prototyping in the Fablab."
+    }
+},
+{
+    "title": "Small breakfast and coffee",
+    "start": "2026-09-11T09:30:00",
+    "end":   "2026-09-11T10:00:00",
+    "extendedProps": {
+      "location":    "TBD",
+      "description": "TBD"
+    }
+  },
+{
+    "title": "Seminar: TBD",
+    "start": "2026-09-11T10:00:00",
+    "end":   "2026-09-11T10:30:00",
+    "extendedProps": {
+      "location":    "ENS-PSL",
+      "description": "TBD"
+    }
+  },
+{
+    "title": "Seminar: TBD",
+    "start": "2026-09-11T10:30:00",
+    "end":   "2026-09-11T11:00:00",
+    "extendedProps": {
+      "location":    "ENS-PSL",
+      "description": "TBD"
+    }
+  },
+
+  {
+    "title": "Seminar: TBD",
+    "start": "2026-09-11T11:00:00",
+    "end":   "2026-09-11T11:30:00",
+    "extendedProps": {
+      "location":    "ENS-PSL",
+      "description": "TBD"
+    }
+  },
+
+  {
+    "title": "Seminar: TBD",
+    "start": "2026-09-11T11:30:00",
+    "end":   "2026-09-11T12:00:00",
+    "extendedProps": {
+      "location":    "ENS-PSL",
+      "description": "Workshop outcomes and next steps"
+    }
+  },
+
+    {
+    "title": "Discussion and cocktail",
+    "start": "2026-09-11T12:00:00",
+    "end":   "2026-09-11T14:00:00",
+        "extendedProps": {
+      "location":    "TBD",
+      "description": "Exchange between participants and speakers, discussion of next steps."
+    }
+  }
+]

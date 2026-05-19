@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convergence — Planning</title>
+  <meta name="description" content="Workshop schedule, sessions and planning calendar." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!--
+    FullCalendar v6 (MIT License)
+    https://fullcalendar.io
+    To add events, edit the `events` array in the <script> block below,
+    or point `events` to a JSON feed / Google Calendar public feed URL.
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+</head>
+<body>
+
+<script src="assets/js/nav.js"></script>
+
+  <!-- Hero -->
+  <header class="page-hero compact">
+    <p class="workshop-label">Convergence Workshop</p>
+    <h1>Planning &amp; Schedule</h1>
+  </header>
+
+  <!-- Main content -->
+  <main class="main-content">
+
+    <!-- Calendar -->
+    <section class="section-block" id="calendar">
+      <h2>Calendar</h2>
+      <p style="font-size:0.88rem; color:var(--color-muted); margin-bottom:1rem;">
+        Interactive calendar powered by
+        <a href="https://fullcalendar.io" target="_blank" rel="noopener">FullCalendar</a>
+        (open-source, MIT licence).
+        Events are stored in <code>assets/js/events.js</code> — edit that file to add sessions.
+      </p>
+      <div id="calendar-container">
+        <div id="calendar"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>Convergence Workshop &mdash; <a href="https://github.com/Jubilee-CSL/convergence">GitHub</a></p>
+  </footer>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+
+        // ── Custom views locked to the 3-day workshop window ──────────
+        // "workshopGrid" : time-slot grid, 3 columns (one per day)
+        // "workshopList" : flat agenda list for the same 3 days
+        initialView: 'workshopGrid',
+        initialDate: '2026-09-09',
+
+        views: {
+          workshopGrid: {
+            type: 'timeGrid',
+            duration: { days: 3 },
+            buttonText: 'Grid'
+          },
+          workshopList: {
+            type: 'list',
+            duration: { days: 3 },
+            buttonText: 'List'
+          }
+        },
+
+        // Prevent navigating outside Sep 9–11
+        validRange: {
+          start: '2026-09-09',
+          end:   '2026-09-12'   // end is exclusive in FullCalendar
+        },
+
+        headerToolbar: {
+          left:   '',           // no prev/next — nowhere to navigate
+          center: 'title',
+          right:  'workshopGrid,workshopList'
+        },
+
+        height: 'auto',
+        allDaySlot: true,
+        slotMinTime: '09:00:00',
+        slotMaxTime: '23:00:00',
+
+        // Render title + location + description inside each event block
+        eventContent: function(arg) {
+          var event = arg.event;
+          var props = event.extendedProps;
+
+          var wrapper = document.createElement('div');
+          wrapper.className = 'fc-event-custom';
+
+          var titleEl = document.createElement('div');
+          titleEl.className = 'fc-event-title-custom';
+          titleEl.textContent = event.title;
+          wrapper.appendChild(titleEl);
+
+          if (props.location) {
+            var locEl = document.createElement('div');
+            locEl.className = 'fc-event-loc';
+            locEl.textContent = props.location;
+            wrapper.appendChild(locEl);
+          }
+
+          if (props.description) {
+            var descEl = document.createElement('div');
+            descEl.className = 'fc-event-desc';
+            descEl.textContent = props.description;
+            wrapper.appendChild(descEl);
+          }
+
+          return { domNodes: [wrapper] };
+        },
+
+        // Events loaded from assets/js/events.json — edit that file to update the schedule
+        events: 'assets/js/events.json',
+      });
+      calendar.render();
+    });
+  </script>
+
+</body>
+</html>
