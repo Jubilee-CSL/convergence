@@ -14,6 +14,7 @@
   --color-text:      #222222;
   --color-muted:     #777777;
   --color-border:    #f0d9c0;
+  --color-orange:    #c45c0a;
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-serif: 'Georgia', serif;
@@ -35,6 +36,9 @@ body {
 
 a { color: var(--color-accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+.card-bio a { color: var(--color-orange); }
+.card-bio a:hover { color: #a34d08; }
 
 img { max-width: 100%; display: block; }
 

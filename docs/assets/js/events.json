@@ -93,12 +93,12 @@
     }
 },
   {
-    "title": "Coffee Break — Theme: Interoperability",
+    "title": "Coffee Break — Theme: Community",
     "start": "2026-09-10T16:00:00",
     "end":   "2026-09-10T16:30:00",
     "extendedProps": {
       "location":    "Sony CSL Paris",
-      "description": "Theme discussion: interoperability of the modular platforms (hardware and software)."
+      "description": "Theme discussion: key aspects to building and maintaining a community."
     }
   },
   {
@@ -129,7 +129,7 @@
     }
   },
 {
-    "title": "Seminar: TBD",
+    "title": "Seminar: Nadya Peek: Science-Jubilee",
     "start": "2026-09-11T10:00:00",
     "end":   "2026-09-11T10:30:00",
     "extendedProps": {
@@ -138,7 +138,7 @@
     }
   },
 {
-    "title": "Seminar: TBD",
+    "title": "Seminar: Jérôme Mutterer: Enderscope",
     "start": "2026-09-11T10:30:00",
     "end":   "2026-09-11T11:00:00",
     "extendedProps": {
@@ -148,7 +148,7 @@
   },
 
   {
-    "title": "Seminar: TBD",
+    "title": "Seminar: TBD, Open-UC2",
     "start": "2026-09-11T11:00:00",
     "end":   "2026-09-11T11:30:00",
     "extendedProps": {
@@ -158,7 +158,7 @@
   },
 
   {
-    "title": "Seminar: TBD",
+    "title": "Seminar: Aliénor Lahlou: open-hardware at PSL",
     "start": "2026-09-11T11:30:00",
     "end":   "2026-09-11T12:00:00",
     "extendedProps": {
