@@ -31,9 +31,9 @@
 
       <div class="venue-cards">
         <div class="venue-card">
-          <p class="venue-name">Sony CSL Paris</p>
-          <p class="venue-address">6 Rue Amyot, 75005 Paris, France</p>
-          <p class="venue-note">Fablab &amp; prototyping sessions (days 1–2)</p>
+          <p class="venue-name">QLab</p>
+          <p class="venue-address">1 rue Maurice Arnoux, 92049 Montrouge, France</p>
+          <p class="venue-note">5th floor. Fablab, prototyping sessions (days 1–2)</p>
           <a href="https://www.sonycsl.co.jp/paris/" target="_blank" rel="noopener">csl.sony.fr</a>
         </div>
         <div class="venue-card">
@@ -49,16 +49,16 @@
 
       <script>
         (function () {
-          var map = L.map('venue-map').setView([48.8462, 2.3475], 15);
+          var map = L.map('venue-map').setView([48.8362, 2.3375], 13);
 
           L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           }).addTo(map);
 
-          L.marker([48.8479, 2.3494])
+          L.marker([48.821363, 2.315228])
             .addTo(map)
-            .bindPopup('<b>Sony CSL Paris</b><br>6 Rue Amyot, 75005 Paris<br><small>Fablab &amp; prototyping sessions</small>')
+            .bindPopup('<b>QLab</b><br>1 rue Maurice Arnoux, 92049 Montrouge<br><small>5th floor. Fablab, prototyping sessions (days 1–2)</small>')
             .openPopup();
 
           L.marker([48.8443, 2.3450])
@@ -111,7 +111,7 @@
     <section class="section-block" id="sponsors">
       <h2>Sponsors &amp; Partners</h2>
       <div class="placeholder">
-        Sponsoring organisations and acknowledgements — to be written.
+        Sony CSL Paris, ENS-PSL, QLab
       </div>
     </section>
 

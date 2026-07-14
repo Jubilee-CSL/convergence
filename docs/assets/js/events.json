@@ -4,7 +4,7 @@
     "start": "2026-09-09T12:00:00",
     "end":   "2026-09-09T14:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Participants present their projects, skills and expectations of the workshop in one slide each. Buffet lunch provided. Hackathon groups form over lunch."
     }
   },
@@ -13,7 +13,7 @@
     "start": "2026-09-09T14:00:00",
     "end":   "2026-09-09T16:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Quick prototyping in the Fablab."
     }
   },
@@ -22,7 +22,7 @@
     "start": "2026-09-09T16:00:00",
     "end":   "2026-09-09T16:30:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Theme discussion: interoperability of the modular platforms (hardware and software)."
     }
   },
@@ -31,7 +31,7 @@
     "start": "2026-09-09T16:30:00",
     "end":   "2026-09-09T17:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": ""
     }
   },
@@ -40,7 +40,7 @@
     "start": "2026-09-09T17:00:00",
     "end":   "2026-09-09T19:30:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Quick prototyping in the Fablab."
     }
   },
@@ -49,26 +49,16 @@
     "start": "2026-09-09T19:30:00",
     "end":   "2026-09-09T20:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "",
       "description": ""
     }
   },
-  {
-    "title": "Dinner & Social",
-    "start": "2026-09-09T20:00:00",
-    "end":   "2026-09-09T22:00:00",
-    "extendedProps": {
-      "location":    "TBD",
-      "description": ""
-    }
-  },
-
     {
     "title": "Hacking Session",
     "start": "2026-09-10T09:30:00",
     "end":   "2026-09-10T12:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Quick prototyping in the Fablab."
     }
   },
@@ -88,7 +78,7 @@
     "start": "2026-09-10T14:00:00",
     "end":   "2026-09-10T16:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Quick prototyping in the Fablab."
     }
 },
@@ -97,7 +87,7 @@
     "start": "2026-09-10T16:00:00",
     "end":   "2026-09-10T16:30:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Theme discussion: key aspects to building and maintaining a community."
     }
   },
@@ -106,7 +96,7 @@
     "start": "2026-09-10T16:30:00",
     "end":   "2026-09-10T17:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": ""
     }
   },
@@ -115,7 +105,7 @@
     "start": "2026-09-10T17:00:00",
     "end":   "2026-09-10T20:00:00",
     "extendedProps": {
-      "location":    "Sony CSL Paris",
+      "location":    "QLab",
       "description": "Quick prototyping in the Fablab."
     }
 },
@@ -148,7 +138,7 @@
   },
 
   {
-    "title": "Seminar: TBD, Open-UC2",
+    "title": "Seminar: Ethan Li, Open-UC2",
     "start": "2026-09-11T11:00:00",
     "end":   "2026-09-11T11:30:00",
     "extendedProps": {
