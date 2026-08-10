@@ -33,14 +33,8 @@
         <div class="venue-card">
           <p class="venue-name">QLab</p>
           <p class="venue-address">1 rue Maurice Arnoux, 92049 Montrouge, France</p>
-          <p class="venue-note">5th floor. Fablab, prototyping sessions (days 1–2)</p>
+          <p class="venue-note">5th floor. All 3 days.</p>
           <a href="https://www.ens.psl.eu/actualites/qlab-un-fablab-interdisciplinaire-dedie-au-vivant" target="_blank" rel="noopener">qlab website</a>
-        </div>
-        <div class="venue-card">
-          <p class="venue-name">ENS-PSL — Rue Lhomond</p>
-          <p class="venue-address">24 Rue Lhomond, 75005 Paris, France</p>
-          <p class="venue-note">Seminar &amp; presentations (day 3)</p>
-          <a href="https://www.ens.psl.eu" target="_blank" rel="noopener">ens.psl.eu</a>
         </div>
       </div>
 
@@ -49,7 +43,7 @@
 
       <script>
         (function () {
-          var map = L.map('venue-map').setView([48.8362, 2.3375], 13);
+          var map = L.map('venue-map').setView([48.821363, 2.315228], 15);
 
           L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
@@ -61,19 +55,9 @@
             .bindPopup('<b>QLab</b><br>1 rue Maurice Arnoux, 92049 Montrouge<br><small>5th floor. Fablab, prototyping sessions (days 1–2)</small>')
             .openPopup();
 
-          L.marker([48.8443, 2.3450])
-            .addTo(map)
-            .bindPopup('<b>ENS-PSL</b><br>24 Rue Lhomond, 75005 Paris<br><small>Seminar &amp; presentations</small>');
+
         })();
       </script>
-    </section>
-
-    <!-- Accommodation -->
-    <section class="section-block" id="accommodation">
-      <h2>Accommodation</h2>
-      <div class="placeholder">
-        Recommended hotels, university housing and booking links — to be written.
-      </div>
     </section>
 
     <!-- Travel & getting there -->
@@ -83,35 +67,25 @@
       <h3>By Air</h3>
       <div class="abstract-text">
         <p>Paris is served by two main international airports:</p>
-        <p><strong>Paris-Charles de Gaulle (CDG)</strong> — ~35 km north-east. Take the <strong>RER B</strong> direct (approx. 40 min, €14). For <em>ENS-PSL</em>, exit at <em>Luxembourg</em> (8 min walk). For <em>QLab</em>, exit at <em>Denfert-Rochereau</em>, then Metro 4 south to <em>Mairie de Montrouge</em>.</p>
+        <p><strong>Paris-Charles de Gaulle (CDG)</strong> — ~35 km north-east. Take the <strong>RER B</strong> direct (approx. 40 min, €14). Exit at <em>Denfert-Rochereau</em>, then Metro 4 south to <em>Mairie de Montrouge</em>.</p>
         <p><strong>Paris-Orly (ORY)</strong> — ~18 km south. Take the <strong>Orlyval</strong> shuttle to <em>Antony</em>, then RER B north to <em>Denfert Rochereau</em> (approx. 35 min total, €14).</p>
       </div>
 
       <h3>By Rail</h3>
       <div class="abstract-text">
-        <p>Paris has six mainline terminals. Travellers from London (Eurostar), Brussels or Amsterdam arrive at <strong>Gare du Nord</strong>. From there take <strong>RER B</strong> southbound (direction Saint-Rémy-lès-Chevreuse or Massy-Palaiseau) to <em>Luxembourg</em> — two stops, under 10 minutes.</p>
-        <p>From <strong>Gare de Lyon</strong> (TGV from southern France, Italy, Switzerland): take <strong>RER D</strong> or <strong>Metro line 14</strong> to <em>Châtelet–Les Halles</em>, then RER B to <em>Luxembourg</em>.</p>
+        <p>Paris has six mainline terminals. Travellers from London (Eurostar), Brussels or Amsterdam arrive at <strong>Gare du Nord</strong>. Take <strong>Metro 4</strong> southbound to <em>Mairie de Montrouge</em> (approx. 30 min).</p>
+        <p>From <strong>Gare de Lyon</strong> (TGV from southern France, Italy, Switzerland): take <strong>Metro 14</strong> to <em>Châtelet–Les Halles</em>, then Metro 4 southbound to <em>Mairie de Montrouge</em>.</p>
       </div>
 
       <h3>Local Transport</h3>
       <div class="abstract-text">
-        <p>The two venues are approximately <strong>3 km apart</strong>; allow 15–20 minutes by public transport between them.</p>
-
         <p><strong>QLab — 1 rue Maurice Arnoux, Montrouge</strong></p>
         <ul style="margin: 0.5rem 0 0.75rem 1.25rem; font-size:0.95rem; line-height:1.9;">
-          <li><strong>Mairie de Montrouge</strong> ~5 min walk</li>
+          <li><strong>Mairie de Montrouge</strong> (Metro 4) — ~5 min walk</li>
         </ul>
 
-        <p><strong>ENS-PSL — 24 Rue Lhomond, Paris 5th</strong></p>
-        <ul style="margin: 0.5rem 0 0.75rem 1.25rem; font-size:0.95rem; line-height:1.9;">
-          <li><strong>Luxembourg</strong> (RER B) — 8 min walk</li>
-          <li><strong>Censier–Daubenton</strong> (Metro 7) — 5 min walk</li>
-          <li><strong>Place Monge</strong> (Metro 7) — 7 min walk</li>
-        </ul>
-
-        <p><strong>Between venues:</strong> Bus line 38 from Porte d'Orleans to Auguste Comte.
         <p>A <strong>Navigo Easy</strong> card (available at any metro station, €2) or single <em>t+ tickets</em> cover all metro, RER (within Paris), and bus travel. A single journey costs €2.15.</p>
-        <p>Cycling via <strong>Vélib'</strong> (public bike-share) is a convenient option between venues — stations near both sites.</p>
+        <p>Cycling via <strong>Vélib'</strong> (public bike-share) is a convenient option — stations near the venue.</p>
       </div>
     </section>
 

@@ -109,21 +109,13 @@
       "description": "Quick prototyping in the Fablab."
     }
 },
-{
-    "title": "Small breakfast and coffee",
-    "start": "2026-09-11T09:30:00",
-    "end":   "2026-09-11T10:00:00",
-    "extendedProps": {
-      "location":    "TBD",
-      "description": "TBD"
-    }
-  },
+
 {
     "title": "Seminar: Nadya Peek: Science-Jubilee",
     "start": "2026-09-11T10:00:00",
     "end":   "2026-09-11T10:30:00",
     "extendedProps": {
-      "location":    "ENS-PSL",
+      "location":    "ENS campus Montrouge",
       "description": "TBD"
     }
   },
@@ -132,7 +124,7 @@
     "start": "2026-09-11T10:30:00",
     "end":   "2026-09-11T11:00:00",
     "extendedProps": {
-      "location":    "ENS-PSL",
+      "location":    "ENS campus Montrouge",
       "description": "TBD"
     }
   },
@@ -142,7 +134,7 @@
     "start": "2026-09-11T11:00:00",
     "end":   "2026-09-11T11:30:00",
     "extendedProps": {
-      "location":    "ENS-PSL",
+      "location":    "ENS campus Montrouge",
       "description": "TBD"
     }
   },
@@ -152,7 +144,7 @@
     "start": "2026-09-11T11:30:00",
     "end":   "2026-09-11T12:00:00",
     "extendedProps": {
-      "location":    "ENS-PSL",
+      "location":    "ENS campus Montrouge",
       "description": "Workshop outcomes and next steps"
     }
   },
@@ -162,8 +154,8 @@
     "start": "2026-09-11T12:00:00",
     "end":   "2026-09-11T14:00:00",
         "extendedProps": {
-      "location":    "TBD",
-      "description": "Exchange between participants and speakers, discussion of next steps."
+      "location":    "ENS campus Montrouge",
+      "description": "Exchange between participants and speakers, discussion of next steps. Demo of OpenUC2 instruments."
     }
   }
 ]
