@@ -20,6 +20,3 @@ Mechanical components :
 Tools :
  - Hex key for M3 screws
 
-## Assembling:
-
-Incoming
