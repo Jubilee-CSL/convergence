@@ -35,8 +35,8 @@ See above.
 ### UC2 parts
 
 Off-the-shelf UC2 mounting components:
-- 5 UC2 cube skeletons/cages ([STEP](./step_files/UC2 Cube Skeleton.step), [buy](https://openuc2.com/core-box/))
-- 10 UC2 puzzle pieces ([STEP](./step_files/PRT - 1004 - PUZ11 - V04 - A.stp), [buy](https://openuc2.com/core-box/))
+- 5 UC2 cube skeletons/cages ([STEP](./step_files/UC2-Cube-Skeleton.step), [buy](https://openuc2.com/core-box/))
+- 10 UC2 puzzle pieces ([STEP](./step_files/PRT-1004-PUZ11-V04-A.stp), [buy](https://openuc2.com/core-box/))
 
 Off-the-shelf optics parts:
 - openUC2 Fluo LED Insert with high-power 405 nm (or is it 485 nm?) LED ([buy](https://openuc2.com/fluoresence-led-add-on/))
@@ -50,9 +50,9 @@ Off-the-shelf electronics parts:
 - openUC2 electronics controller module ([buy](https://openuc2.com/electronics-add-on/))
 
 3D-printed parts (units: mm):
-- Notched UC2 insert for RMS-threaded objective lenses ([STL](./stl_files/RMS lens insert notched.stl))
-- Notched UC2 insert for SM1-threaded lens mounts ([STL](./stl_files/SM1 lens insert notched.stl))
-- Notched UC2 insert for Raspberry Pi HQ Camera ([STL](./stl_files/RPi HQ Camera insert notched.stl))
+- Notched UC2 insert for RMS-threaded objective lenses ([STL](./stl_files/RMS-lens-insert-notched.stl))
+- Notched UC2 insert for SM1-threaded lens mounts ([STL](./stl_files/SM1-lens-insert-notched.stl))
+- Notched UC2 insert for Raspberry Pi HQ Camera ([STL](./stl_files/RPi-HQ-Camera-insert-notched.stl))
 
 ## Assembly
 
@@ -60,29 +60,29 @@ Off-the-shelf electronics parts:
 
 Mount the optical components on their corresponding inserts, place the inserts into the cubes, and sandwich the cubes between puzzle pieces, in order to match the following photo:
 
-![tool side.jpg](./images/tool side.jpg)
+![tool side.jpg](./images/tool-side.jpg)
 
 The Raspberry Pi HQ camera insert should be positioned as follows:
 
-![camera slot.jpg](./images/camera slot.jpg)
+![camera slot.jpg](./images/camera-slot.jpg)
 
 ### Mount the UC2 device to the Jubilee tool adapter
 
 Snap the puzzle pieces into the appropriate position on the UC2 device, and screw the M3 mounting screws into the tool adapter plate (with the M3 nuts inserted) in order to match the following photo:
 
-![tool side.jpg](./images/tool side.jpg)
+![tool side.jpg](./images/tool-side.jpg)
 
 Then screw the standard Jubilee tool-holding arms onto the tool adapter plate in order to match the above photo.
 
 Now you can place the tool into a Jubilee tool slot:
 
-![jubilee tool above.jpg](./images/jubilee tool above.jpg)
+![jubilee tool above.jpg](./images/jubilee-tool-above.jpg)
 
 ### Connect cables & wires
 
 1. Plug the JST connector of the openUC2 Fluo LED module in to the PWM3 port of the openUC2 electronics control module. You should route this cable in a way that makes sense to you, and you may need to first tape the openUC2 electronics control module to the wall of your Jubilee:
 
-   ![electronics control module.jpg](./images/electronics control module.jpg)
+   ![electronics control module.jpg](./images/electronics-control-module.jpg)
 
 2. Plug in the USB cable for the openUC2 electronics controller module into your laptop.
 
