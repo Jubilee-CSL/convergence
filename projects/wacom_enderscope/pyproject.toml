@@ -1,0 +1,29 @@
+[project]
+authors = [{name = "Aline Baudry", email = "baudry@isir.upmc.fr"}]
+dependencies = ["hidapi-py>=0.1.2,<0.2", "hidapi>=0.15.0,<0.16"]
+name = "wacom-pixi"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.pypi-dependencies]
+wacom_pixi = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+textual = ">=8.2.8,<9"
+cython = ">=3.3.0,<4"
+python = "3.13.*"
+pyglet = ">=2.1.15,<3"
+pygame = ">=2.6.1,<3"
+
+[target.win-64.activation]
+scripts = ["path.bat"]
