@@ -9,6 +9,7 @@
     { href: 'speakers.html',     label: 'Speakers'     },
     { href: 'registration.html', label: 'Registration' },
     { href: 'resources.html',    label: 'Resources'    },
+    { href: 'projects.html',     label: 'Projects'     },
     { href: 'logistics.html',    label: 'Logistics'    },
     { href: 'contacts.html',     label: 'Contact'      },
   ];
