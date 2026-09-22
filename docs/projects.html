@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convergence — Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .project-link-card {
+      display: block;
+      padding: 1.1rem 1.2rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: var(--shadow);
+      color: var(--color-text);
+      text-decoration: none;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .project-link-card:hover {
+      text-decoration: none;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,.12);
+    }
+    .project-link-card h3 {
+      margin: 0 0 .35rem;
+      color: var(--color-primary);
+      font-size: 1.02rem;
+    }
+    .project-link-card p {
+      margin: 0;
+      color: var(--color-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <script src="assets/js/nav.js"></script>
+
+  <header class="page-hero compact">
+    <p class="workshop-label">Convergence Workshop</p>
+    <h1>Projects</h1>
+  </header>
+
+  <main class="main-content">
+    <section class="section-block">
+      <h2>Project READMEs</h2>
+      <div class="projects-grid">
+        <a class="project-link-card" href="project-enderscope2jubilee-adapter.html">
+          <h3>EnderScope to Jubilee Adapter</h3>
+          <p>Open README</p>
+        </a>
+        <a class="project-link-card" href="project-nirsg1-enderscope.html">
+          <h3>NIRSG1 EnderScope</h3>
+          <p>Open README</p>
+        </a>
+        <a class="project-link-card" href="project-uc2-tool-for-jubilee.html">
+          <h3>UC2 Tool for Jubilee</h3>
+          <p>Open README</p>
+        </a>
+        <a class="project-link-card" href="project-wacom-enderscope.html">
+          <h3>Wacom EnderScope</h3>
+          <p>Open README</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Convergence Workshop &mdash; <a href="https://github.com/Jubilee-CSL/convergence">GitHub</a></p>
+  </footer>
+</body>
+</html>
